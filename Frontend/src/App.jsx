@@ -31,7 +31,7 @@ function App() {
       setQuestion(text);
 
       try {
-        const res = await axios.post("http://localhost:5000/ask", {
+        const res = await axios.post("https://voicebotassitance.onrender.com/ask", {
           question: text,
         });
 
